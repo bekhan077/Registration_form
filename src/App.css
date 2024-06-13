@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: #005875;
+}
+
+input {
+    outline: none;
+    transition: 0.3s;
+}
+
+input:hover {
+    box-shadow: 3px 3px 10px #005875;
+}
+
